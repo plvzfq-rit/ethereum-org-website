@@ -1331,6 +1331,17 @@ const chains = [
     chain: "Lambda Chain",
   },
   {
+    name: "Ink",
+    infoURL: "https://inkonchain.com",
+    chainId: 57073,
+    nativeCurrency: {
+      name: "Ether",
+      symbol: "ETH",
+      decimals: 18,
+    },
+    chain: "ETH",
+  },
+  {
     name: "Linea",
     infoURL: "https://linea.build",
     chainId: 59144,
