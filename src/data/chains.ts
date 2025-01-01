@@ -363,6 +363,17 @@ const chains = [
     chain: "HPB",
   },
   {
+    name: "XR One",
+    infoURL: "https://xr-one.gitbook.io",
+    chainId: 273,
+    nativeCurrency: {
+      name: "XR",
+      symbol: "XR",
+      decimals: 18,
+    },
+    chain: "ETH",
+  },
+  {
     name: "Boba Network",
     infoURL: "https://boba.network",
     chainId: 288,
@@ -396,7 +407,7 @@ const chains = [
     chain: "ETH",
   },
   {
-    name: "GRVT Mainnet",
+    name: "GRVT Exchange",
     infoURL: "https://grvt.io/",
     chainId: 325,
     nativeCurrency: {
@@ -460,6 +471,17 @@ const chains = [
       decimals: 18,
     },
     chain: "AppChain",
+  },
+  {
+    name: "Form Network",
+    infoURL: "https://info.form.network",
+    chainId: 478,
+    nativeCurrency: {
+      name: "Ether",
+      symbol: "ETH",
+      decimals: 18,
+    },
+    chain: "form",
   },
   {
     name: "World Chain",
@@ -715,7 +737,7 @@ const chains = [
     chain: "ETH",
   },
   {
-    name: "Swell Network",
+    name: "Swellchain",
     infoURL: "https://app.swellnetwork.io/layer2/swell-l2",
     chainId: 1923,
     nativeCurrency: {
@@ -723,7 +745,7 @@ const chains = [
       symbol: "ETH",
       decimals: 18,
     },
-    chain: "Swell L2",
+    chain: "ETH",
   },
   {
     name: "Minato",
@@ -1529,8 +1551,8 @@ const chains = [
     chain: "ETH",
   },
   {
-    name: "HydraDX",
-    infoURL: "https://hydradx.io",
+    name: "Hydration",
+    infoURL: "https://hydration.net/",
     chainId: 222222,
     nativeCurrency: {
       name: "Wrapped ETH",
